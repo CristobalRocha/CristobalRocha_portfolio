@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,600;0,700;1,300&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+h2 {
+    color: lightsteelblue;
+    border-bottom: 3px solid lightsteelblue;
+    text-transform: uppercase;
+    padding: 2%;
+    width: 100%;
+}
+
+h3 {
+    padding: 2%;
+
+}
+
+@media (min-width:300px) {
+
+    .skills {
+        padding: 3%;
+        background-color: lavender;
+    }
+
+
+    .html-5 > aside, .css > aside, .scss > aside, .flexbox > aside, .responsive-web > aside {
+        width: 10vh;
+        height: 10vh;
+        border: 10px solid lavender;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .pro-skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pro-skills > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        padding: 2%;
+    }
+
+    #html-5 > aside {
+        background: url(/img/html-5.png);
+        background-size: contain;
+    }
+    #css > aside {
+        background: url(/img/css.png);
+        background-size: contain;
+    }
+    #scss > aside {
+        background: url(/img/sass.png);
+        background-size: contain;
+    }
+    #flexbox > aside {
+        background: url(/img/flexbox.png);
+        background-size: contain;
+    }
+    #responsive-web > aside {
+        background: url(/img/responsive-web.png);
+        background-size: contain;
+    }
+
+    .education {
+        padding: 3%;
+        background-color: rgba(95, 158, 160, 0.738);
+    }
+
+    .education > article {
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tec > p {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .tec > aside {
+        height: 20vh;
+        width: 20vh;
+        background: url(/img/TEC.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .tec > h3 {
+        font-size: 28px;
+        border-bottom: 8px solid transparent;
+    }
+
+    .tamwood > p {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .tamwood > aside {
+        height: 20vh;
+        width: 20vh;
+        background: url(/img/Tamwood.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .tamwood > h3 {
+        font-size: 28px;
+        border-bottom: 8px solid transparent;
+    }
+
+    .contact {
+        padding: 3%;
+        background-color: beige;
+    }
+
+    .contact > .form {
+        width: 90%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 8px;
+    }
+
+    [type="text"],[type="email"],textarea {
+        width: 80%;
+        border: 1px solid black;
+    }
+
+    .footer {
+        background-color: lightgray;
+        padding: 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icons {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
